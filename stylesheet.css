@@ -1,0 +1,44 @@
+#background {
+	margin-top: 25px;
+	margin-left: 150px;
+	margin-right: 150px;
+	margin-bottom: 25px;
+
+	padding: 20px 200px 20px 200px;
+
+	border-radius: 20px;
+	background-color: #ffffff;
+
+	text-align: left;
+}
+	h1 {
+		font-size: 48px;
+		margin-bottom: 18px;
+		text-align: left
+	}
+	
+	h2 {
+		font-size: 32px;
+		margin-bottom: 12px;
+		text-align: right
+	}
+	
+	h3 {
+		font-size: 20px;
+		margin-bottom: 12px;
+	}
+    h4{
+        font-size: 18px;
+        margin-bottom: 4px;
+    }
+    hr { 
+        display: block;
+        overflow: hidden; 
+        border-style: solid; 
+        border-width: 4px;
+    }
+#section {
+	display: flex;
+	flex-flow: row wrap;
+  }
+
