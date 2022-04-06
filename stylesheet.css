@@ -1,15 +1,13 @@
-#background {
+.background {
 	margin-top: 25px;
-	margin-left: 150px;
-	margin-right: 150px;
+	margin-left: 10px;
+	margin-right: 10px;
 	margin-bottom: 25px;
-
 	padding: 20px 200px 20px 200px;
-
 	border-radius: 20px;
 	background-color: #ffffff;
-
 	text-align: left;
+	text-indent: 5px;
 }
 	h1 {
 		font-size: 48px;
@@ -31,14 +29,16 @@
         font-size: 18px;
         margin-bottom: 4px;
     }
-    hr { 
+	hr { 
         display: block;
         overflow: hidden; 
         border-style: solid; 
         border-width: 4px;
     }
-#section {
+.flex-container {
 	display: flex;
-	flex-flow: row wrap;
-  }
-
+	flex-direction: column;
+	background-color: #f1f1f1;
+	text-align: left;
+	text-indent: 5px;
+	}
